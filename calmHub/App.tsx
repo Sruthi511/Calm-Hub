@@ -7,7 +7,7 @@ import Animated, { FadeIn } from "react-native-reanimated";
 export default function App() {
   return (
     <GluestackUIProvider config={config}>
-      <View style={styles.container}>
+      <View className="flex-1 items-center justify-center bg-blue-100">
         <Text>Open up App.tsx gg to start working on your app!</Text>
         <StatusBar style="auto" />
       </View>
